@@ -37,6 +37,7 @@ axi-stream-learning/
 
 ##  Output Waveform
 
+```
 The simulation waveform verifies correct AXI-Stream handshaking, back-pressure handling, and packetized data transfer between the master and slave.
 
 ![AXI-Stream Output Waveform](sim/waveform)
