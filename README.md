@@ -3,11 +3,11 @@
 This repository contains a **minimal, educational implementation of an AXI-Stream–style data transfer system** written in Verilog.  
 The purpose of this project is to **understand the fundamentals of AXI-Stream communication**, including handshaking, back-pressure, and packetized data transfer using FSM-based control.
 
-⚠️ **Note:** This is **not a fully AXI-Stream compliant IP core**. It is intentionally simplified for learning and demonstration purposes.
+ **Note:** This is **not a fully AXI-Stream compliant IP core**. It is intentionally simplified for learning and demonstration purposes.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Learn the AXI-Stream `TVALID` / `TREADY` handshake
 - Understand back-pressure in streaming systems
@@ -28,13 +28,8 @@ axi-stream-learning/
 │   └── top.v           # Top-level integration
 │
 ├── sim/
-│   ├── tb_axis_stream.v   # Testbench (optional / recommended)
-│   └── waveforms.png      # Simulation waveform screenshots
-│
-├── docs/
-│   ├── master_fsm.png
-│   ├── slave_fsm.png
-│   └── timing_diagram.png
+│   ├── tb_axis_m.v         # Master Testbench
+│   ├── tb_axis_s.v         # Slave Testbench
+│   └── waveforms.png       # Simulation waveform screenshots
 │
 ├── README.md
-└── LICENSE
