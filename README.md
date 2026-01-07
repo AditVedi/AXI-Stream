@@ -30,6 +30,7 @@ axi-stream-learning/
 ├── sim/
 │   ├── tb_axis_m.v         # Master Testbench
 │   ├── tb_axis_s.v         # Slave Testbench
-│   └── waveforms.png       # Simulation waveform screenshots
+│   ├── top_tb.v         # Slave Testbench
+│   └── waveform.png       # Simulation waveform screenshots
 │
 ├── README.md
